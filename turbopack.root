@@ -1,0 +1,13 @@
+// next.config.ts
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Allow Turbopack to run in the current directory
+  experimental: {
+    turbo: {
+      root: '.',
+    },
+  },
+};
+
+export default nextConfig;
